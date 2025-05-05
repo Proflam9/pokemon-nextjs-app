@@ -1,12 +1,12 @@
 "use client"
-import NavbarComponent from "@/components/navbar/NavbarComponent";
+import NavbarComponent from "../../components/navbar/NavbarComponent";
 import { useState } from "react";
 import React, { useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import { MdLocationPin } from "react-icons/md";
 import { MdPhone } from "react-icons/md";
 import { RiMailSendFill } from "react-icons/ri";
-import { toastConfig } from "@/utils/constants";
+import { toastConfig } from "../../utils/constants";
 import emailjs from '@emailjs/browser';
 
 

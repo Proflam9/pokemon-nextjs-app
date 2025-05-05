@@ -1,4 +1,4 @@
-import { useStoreFavorite } from '@/store/favorite.store';
+import { useStoreFavorite } from "../../store/favorite.store";
 import Link from 'next/link';
 import React from 'react'
 import { FaHeart } from "react-icons/fa";

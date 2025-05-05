@@ -1,5 +1,5 @@
 import React from 'react'
-import { Pokemons, Types } from "@/utils/data";
+import { Pokemons, Types } from "../../../utils/data";
 
     const Page = async ({ params }) => {
         const { id } = await params;

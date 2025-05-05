@@ -1,7 +1,7 @@
 "use client"
-import NavbarComponent from "@/components/navbar/NavbarComponent";
-import CardComponent from "@/components/card/CardComponent";
-import { Pokemons, Types } from "@/utils/data";
+import NavbarComponent from "../components/navbar/NavbarComponent";
+import CardComponent from "../components/card/CardComponent";
+import { Pokemons, Types } from "../utils/data";
 import { useState } from "react";
 
 const Page = () => {
